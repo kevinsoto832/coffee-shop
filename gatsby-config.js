@@ -39,5 +39,17 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: `http://netlify.local/graphql`,
+        schema: {
+          timeout: 30000,
+        },
+        debug: {
+          preview: true,
+        },
+      },
+    },
   ],
 }
