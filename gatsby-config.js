@@ -28,8 +28,8 @@ module.exports = {
         url: `https://satisfying-jellyfish.localsite.io/graphql`,
         auth: {
           htaccess: {
-            username: process.env.HTTPBASICAUTH_USERNAME,
-            password: process.env.HTTPBASICAUTH_PASSWORD,
+            username: process.env.GATSBY_HTTPBASICAUTH_USERNAME,
+            password: process.env.GATSBY_HTTPBASICAUTH_PASSWORD,
           },
         },
       },
