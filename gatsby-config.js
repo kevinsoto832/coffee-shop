@@ -25,7 +25,7 @@ module.exports = {
          * The full URL of the WordPress site's GraphQL API.
          * Example : 'https://www.example-site.com/graphql'
          */
-        url: `https://satisfying-jellyfish.localsite.io/graphql`,
+        url: `http://satisfying-jellyfish.localsite.io/graphql`,
         auth: {
           htaccess: {
             username: process.env.GATSBY_HTTPBASICAUTH_USERNAME,
