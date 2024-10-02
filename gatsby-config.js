@@ -23,6 +23,12 @@ module.exports = {
          * Example : 'https://www.example-site.com/graphql'
          */
         url: `https://satisfying-jellyfish.localsite.io/graphql`,
+        auth: {
+          htaccess: {
+            username: process.env.HTTPBASICAUTH_USERNAME,
+            password: process.env.HTTPBASICAUTH_PASSWORD,
+          },
+        },
       },
     },
     `gatsby-plugin-image`,
