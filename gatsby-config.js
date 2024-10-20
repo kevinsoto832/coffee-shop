@@ -30,11 +30,11 @@ module.exports = {
           htaccess: {
             // username: "statement",
             // password: "psychedelic",
-            // username: process.env.GATSBY_HTTPBASICAUTH_USERNAME || "statement",
-            // password:
-            //   process.env.GATSBY_HTTPBASICAUTH_PASSWORD || "psychedelic",
-            username: process.env.HTTPBASICAUTH_USERNAME,
-            password: process.env.HTTPBASICAUTH_PASSWORD,
+            username: process.env.GATSBY_HTTPBASICAUTH_USERNAME || "statement",
+            password:
+              process.env.GATSBY_HTTPBASICAUTH_PASSWORD || "psychedelic",
+            // username: process.env.HTTPBASICAUTH_USERNAME,
+            // password: process.env.HTTPBASICAUTH_PASSWORD,
           },
         },
       },
