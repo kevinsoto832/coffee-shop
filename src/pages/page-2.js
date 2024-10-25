@@ -13,7 +13,7 @@ import Seo from "../components/seo"
 
 const SecondPage = ({ data }) => (
   <Layout>
-    <h1>Hi from the second page</h1>
+    <h1>Hi from the second pafge</h1>
     {data.allWpPost.nodes.map(post => (
       <div key={post.title}>
         <h2>{post.title}</h2>
