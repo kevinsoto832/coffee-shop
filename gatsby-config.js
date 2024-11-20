@@ -25,7 +25,7 @@ module.exports = {
          * The full URL of the WordPress site's GraphQL API.
          * Example : 'https://www.example-site.com/graphql'
          */
-        url: `https://hro.bcg.mybluehost.me/graphql`,
+        url: `https://autoluxeupholstery.com/graphql`,
       },
     },
     `gatsby-plugin-image`,
