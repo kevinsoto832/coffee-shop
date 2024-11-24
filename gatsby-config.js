@@ -12,9 +12,9 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: `https://autoluxeupholstery.com/graphql`,
-        debug: {
-          graphql: true,  // Enable detailed GraphQL debugging
-        },
+        // debug: {
+        //   graphql: true,  // Enable detailed GraphQL debugging
+        // },
         schema: {
           requestConcurrency: 5,
           perPage: 100,  // Increase the number of items per page
