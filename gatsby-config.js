@@ -2,7 +2,7 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `GATSBY - COFFEE SHOP`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -12,12 +12,9 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         url: `https://autoluxeupholstery.com/graphql`,
-        // debug: {
-        //   graphql: true,  // Enable detailed GraphQL debugging
-        // },
         schema: {
           requestConcurrency: 5,
-          perPage: 100,  // Increase the number of items per page
+          perPage: 100, // Increase the number of items per page
         },
       },
     },
